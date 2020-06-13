@@ -1,0 +1,85 @@
+.profile {
+  width: 100%;
+  max-width: 480px;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 0 20px;
+  background: #383667;
+  color: #ffffff;
+  position: relative;
+}
+
+svg.profile_return {
+  color: white;
+  font-size: 41px;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+
+.profile_main_image img {
+  width: 108px;
+  height: 108px;
+  border-radius: 54px;
+  border: 4px solid white;
+}
+
+.profile_name {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.profile_top {
+  flex: 2;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: center;
+}
+
+.profile_bottom {
+  flex: 1;
+}
+
+.profile_info {
+  width: 100%;
+  font-weight: 600;
+}
+
+.info_phone {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #a6a2c1;
+  padding: 0 20px 20px 20px;
+}
+
+.info_cnh {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #a6a2c1;
+  padding: 20px;
+}
+
+.add_plate {
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: column;
+  align-items: center;
+  border: 3px dashed #a6a2c1;
+  border-radius: 15px;
+  padding: 10px;
+  color: #ffffff;
+}
+
+svg.add_plate_icon {
+  width: 35px;
+  height: 35px;
+}
+
+p.add_plate_label {
+  font-size: 14px;
+}

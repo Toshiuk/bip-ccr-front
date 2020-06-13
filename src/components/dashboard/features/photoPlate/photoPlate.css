@@ -1,0 +1,93 @@
+.photoPlate {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  max-width: 480px;
+  position: relative;
+}
+.photoPlate video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -2;
+}
+
+.video_overlay {
+  position: absolute;
+  left: calc(50% - 130px);
+  top: calc(50% - 40px);
+  width: 260px;
+  height: 80px;
+  z-index: -1;
+  box-shadow: 0 0 0 99999px rgba(56, 54, 103, 0.6);
+}
+
+svg.photoPlate_flashlight {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+  color: white;
+  cursor: pointer;
+}
+
+.photoPlate_return {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  color: white;
+  text-decoration: underline;
+}
+
+p.photoPlate_description {
+  position: absolute;
+  color: white;
+  left: calc(50% - 130px);
+  top: calc(50% - 125px);
+  width: 260px;
+  text-align: center;
+  line-height: 21px;
+}
+
+.video_overlay_topLeft {
+  position: absolute;
+  left: calc(50% - 130px);
+  top: calc(50% - 40px);
+  width: 30px;
+  height: 30px;
+  border-top: 2px solid red;
+  border-left: 2px solid red;
+}
+
+.video_overlay_topRight {
+  position: absolute;
+  right: calc(50% - 130px);
+  top: calc(50% - 40px);
+  width: 30px;
+  height: 30px;
+  border-top: 2px solid red;
+  border-right: 2px solid red;
+}
+
+.video_overlay_bottomRight {
+  position: absolute;
+  right: calc(50% - 130px);
+  bottom: calc(50% - 40px);
+  width: 30px;
+  height: 30px;
+  border-bottom: 2px solid red;
+  border-right: 2px solid red;
+}
+
+.video_overlay_bottomLeft {
+  position: absolute;
+  left: calc(50% - 130px);
+  bottom: calc(50% - 40px);
+  width: 30px;
+  height: 30px;
+  border-bottom: 2px solid red;
+  border-left: 2px solid red;
+}

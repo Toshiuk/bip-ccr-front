@@ -1,0 +1,147 @@
+.react-reveal.invoice {
+  max-width: 480px;
+  width: 100%;
+  height: 100%;
+}
+
+.invoice_header {
+  background: #fd610a;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 76px;
+  align-items: center;
+}
+
+svg.invoice_return {
+  position: absolute;
+  left: 20px;
+  height: 40px;
+  color: white;
+  width: 40px;
+  cursor: pointer;
+}
+
+.invoice_header p {
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 0;
+}
+
+.invoice_options {
+  display: flex;
+  justify-content: space-around;
+  height: 65px;
+  align-items: center;
+}
+
+.option_item {
+  width: 31%;
+  border-radius: 20px;
+  text-align: center;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-transition: all 300ms linear;
+  -moz-transition: all 300ms linear;
+  -o-transition: all 300ms linear;
+  -ms-transition: all 300ms linear;
+  transition: all 300ms linear;
+  border: 1px solid #a6a2c1;
+  color: #a6a2c1;
+}
+
+.option_item.active {
+  background: #383667;
+  color: white;
+}
+
+li.invoice_item {
+  display: flex;
+  justify-content: space-between;
+}
+
+p.item_title {
+  color: #383667;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.item_information {
+  padding: 0 20px;
+}
+
+p.item_description {
+  color: #a6a2c1;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+.invoice_list {
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+.invoice_pipe svg {
+  width: 25px;
+}
+
+p.item_date {
+  color: #a6a2c1;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.item_details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+p.item_value {
+  font-weight: 600;
+  color: #fd610a;
+}
+p.item_value.receiving {
+  color: #5663ff;
+}
+
+.invoice_first_column {
+  display: flex;
+}
+
+.invoice_bottom {
+  box-shadow: 0px -1px 18px rgba(0, 0, 0, 0.09);
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  background: #fff;
+  width: 100%;
+  max-width: 480px;
+}
+
+.invoice_main {
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+}
+span.main_label {
+  font-size: 16px;
+  line-height: 16px;
+  color: #383667;
+  font-weight: 600;
+}
+
+span.main_value {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 27px;
+  color: #5663ff;
+}
+
+li.invoice_pipe {
+  margin-bottom: 10px;
+}
